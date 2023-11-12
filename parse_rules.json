@@ -1,0 +1,24 @@
+{
+    "rules_1": [
+        {
+            "name": "freq",
+            "pattern": "freq:(\\d+)Hz"
+        },
+        {
+            "name": "status",
+            "pattern": "status/rssi:\\[(\\d+),(\\d+)\\]",
+            "group_index": 0
+        },
+        {
+            "name": "rssi",
+            "pattern": "status/rssi:\\[(\\d+),(\\d+)\\]",
+            "group_index": 1
+        }
+    ],
+    "rules_2": [
+        {
+            "name": "stick_forward",
+            "pattern": "stick_fwd:(\\d+)"
+        }
+    ]
+}
